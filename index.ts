@@ -8,7 +8,6 @@ function set(from: Date, to: Date) {
   const opacity = Math.min(Math.max(current / total, 0), 1);
 
   window.document.body.style.opacity = opacity.toFixed(5);
-  // window.document.body.style.transition = "opacity 0.5s linear";
 
   return opacity === 0;
 }
